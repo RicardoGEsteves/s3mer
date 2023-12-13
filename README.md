@@ -13,11 +13,11 @@ This repository hosts a cutting-edge livestream platform developed using a robus
 - **Frontend:** TypeScript, React, Next.js, TailwindCSS, Shadcn-ui
 - **Backend:** Prisma, MySQL,
 - **Real-time Communication:** Socket.io, WebRTC, WebSockets
-- **Authentication & Security:** Clerk, JWT, Sonner, Svix
+- **Authentication & Security:** Clerk, JWT, Sonner, Svix, ngrok
 - **State Management:** Zustand
 - **Media & Data Handling:** Tanstack/react-table, Uploadthing
 - **Streaming Protocols:** RTMP and WHIP connections
-- **Additional Integrations:** Livekit, Webhooks
+- **Additional Integrations:** Livekit, Webhooks, OBS
 
 ### Features & Capabilities:
 
@@ -37,7 +37,7 @@ This project is continuously evolving, incorporating new technologies and enhanc
 
 #### Stack
 
-`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Zustand, Webhooks, RTMP and WHIP connections, and more. `
+`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Ngrok, Zustand, Webhooks, RTMP and WHIP connections, and more. `
 
 ## Getting Started
 
