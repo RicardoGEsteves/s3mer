@@ -11,7 +11,7 @@ This repository hosts a cutting-edge livestream platform developed using a robus
 ### Key Technologies:
 
 - **Frontend:** TypeScript, React, Next.js, TailwindCSS, Shadcn-ui
-- **Backend:** Prisma, PostgreSQL, Supabase
+- **Backend:** Prisma, MySQL,
 - **Real-time Communication:** Socket.io, WebRTC, WebSockets
 - **Authentication & Security:** Clerk, JWT, Sonner, Svix
 - **State Management:** Zustand
@@ -23,7 +23,7 @@ This repository hosts a cutting-edge livestream platform developed using a robus
 
 - **Real-Time Streaming:** Utilizing WebRTC and WebSockets for seamless live streaming capabilities.
 - **Robust Security Measures:** Integrated authentication, JWT, and additional security layers for user protection.
-- **Efficient Data Management:** Leveraging Prisma, PostgreSQL, and Supabase for streamlined data handling.
+- **Efficient Data Management:** Leveraging Prisma, MySQL, and other technologies for efficient data management.
 - **Customizable UI/UX:** Developed with TailwindCSS and Shadcn-ui, ensuring an engaging user interface.
 - **Scalable Architecture:** Designed for scalability and performance with a focus on delivering a smooth streaming experience.
 
@@ -37,7 +37,7 @@ This project is continuously evolving, incorporating new technologies and enhanc
 
 #### Stack
 
-`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, PostgreSQL, Supabase, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Zustand, Webhooks, RTMP and WHIP connections, and more. `
+`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Zustand, Webhooks, RTMP and WHIP connections, and more. `
 
 ## Getting Started
 
