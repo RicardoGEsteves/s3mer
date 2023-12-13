@@ -6,7 +6,7 @@ html,
 body,
 :root {
   height: 100%;
-  /* @apply bg-slate-950; */
+  @apply bg-primary-foreground;
 }
 
 .hidden-scrollbar {
