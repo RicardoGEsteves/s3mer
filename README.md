@@ -37,7 +37,7 @@ This project is continuously evolving, incorporating new technologies and enhanc
 
 #### Stack
 
-`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Ngrok, Zustand, Webhooks, RTMP and WHIP connections, and more. `
+`Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Livekit, Tanstack/react-table, Uploadthing, JWT, Sonner, Svix, Ngrok, Zustand, Webhooks, RTMP and WHIP connections, Server actions and more. `
 
 ## Getting Started
 
