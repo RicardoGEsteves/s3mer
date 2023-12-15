@@ -1,11 +1,11 @@
 "use client";
 
 import { Stream, User } from "@prisma/client";
-// import { LiveKitRoom } from "@livekit/components-react";
+import { LiveKitRoom } from "@livekit/components-react";
 
 import { cn } from "@/lib/utils";
 // import { useChatSidebar } from "@/store/use-chat-sidebar";
-// import { useViewerToken } from "@/hooks/use-viewer-token";
+import { useViewerToken } from "@/hooks/use-viewer-token";
 
 // import { InfoCard } from "./info-card";
 // import { AboutCard } from "./about-card";
@@ -40,12 +40,12 @@ interface StreamPlayerProps {
 }
 
 const StreamPlayer = ({ user, stream, isFollowing }: StreamPlayerProps) => {
-  //   const { token, name, identity } = useViewerToken(user.id);
-  //   const { collapsed } = useChatSidebar((state) => state);
+  const { token, name, identity } = useViewerToken(user.id);
+  // const { collapsed } = useChatSidebar((state) => state);
 
-  //   if (!token || !name || !identity) {
-  //     return <StreamPlayerSkeleton />;
-  //   }
+  if (!token || !name || !identity) {
+    return <StreamPlayerSkeleton />;
+  }
 
   return (
     // <>
