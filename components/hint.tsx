@@ -21,7 +21,7 @@ const Hint = ({ label, children, asChild, side, align }: HintProps) => {
         <TooltipContent
           side={side}
           align={align}
-          className="bg-primary text-primary-foreground"
+          className="bg-primary text-primary-foreground border-none"
         >
           <p className="font-semibold">{label}</p>
         </TooltipContent>

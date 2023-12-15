@@ -19,7 +19,7 @@ const Actions = async () => {
           <Button
             size="sm"
             variant="ghost"
-            className="text-muted-foreground"
+            className="text-muted-foreground hover:text-primary"
             asChild
           >
             <Link href={`/u/${user.username}`}>
