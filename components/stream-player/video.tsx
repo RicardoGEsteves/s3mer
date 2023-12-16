@@ -35,7 +35,7 @@ const Video = ({ hostName, hostIdentity }: VideoProps) => {
   } else {
     content = <LiveVideo participant={participant} />;
   }
-  //TODO: check border if I remove it or not
+
   return <div className="aspect-video border-b group relative">{content}</div>;
 };
 

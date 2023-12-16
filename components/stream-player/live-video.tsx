@@ -76,6 +76,7 @@ const LiveVideo = ({ participant }: LiveVideoProps) => {
       />
       <div className="absolute top-0 h-full w-full opacity-0 hover:opacity-100 hover:transition-all">
         <div className="absolute bottom-0 flex h-10 w-full items-center justify-between bg-background/70 px-4">
+          {/* bg-gradient-to-t from-background/X to-background/Y */}
           <VolumeControl
             onChange={onVolumeChange}
             value={volume}

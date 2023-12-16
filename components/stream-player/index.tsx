@@ -1,6 +1,6 @@
 "use client";
 
-import { Stream, User } from "@prisma/client";
+// import { Stream, User } from "@prisma/client";
 import { LiveKitRoom } from "@livekit/components-react";
 
 import { cn } from "@/lib/utils";
@@ -9,8 +9,8 @@ import { useViewerToken } from "@/hooks/use-viewer-token";
 
 // import { InfoCard } from "./info-card";
 // import { AboutCard } from "./about-card";
-// import { ChatToggle } from "./chat-toggle";
-// import { Chat, ChatSkeleton } from "./chat";
+import ChatToggle from "./chat-toggle";
+import Chat, { ChatSkeleton } from "./chat";
 import Video, { VideoSkeleton } from "./video";
 // import { Header, HeaderSkeleton } from "./header";
 
@@ -47,13 +47,14 @@ const StreamPlayer = ({ user, stream, isFollowing }: StreamPlayerProps) => {
     return <StreamPlayerSkeleton />;
   }
 
+  // console.log({ token, name, identity });
   return (
     <>
-      {/* {collapsed && (
+      {collapsed && (
         <div className="hidden lg:block fixed top-[100px] right-2 z-50">
           <ChatToggle />
         </div>
-      )} */}
+      )}
       <LiveKitRoom
         token={token}
         serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_WS_URL}
@@ -89,7 +90,7 @@ const StreamPlayer = ({ user, stream, isFollowing }: StreamPlayerProps) => {
             followedByCount={user._count.followedBy}
           /> */}
         </div>
-        {/* <div className={cn("col-span-1", collapsed && "hidden")}>
+        <div className={cn("col-span-1", collapsed && "hidden")}>
           <Chat
             viewerName={name}
             hostName={user.username}
@@ -99,7 +100,7 @@ const StreamPlayer = ({ user, stream, isFollowing }: StreamPlayerProps) => {
             isChatDelayed={stream.isChatDelayed}
             isChatFollowersOnly={stream.isChatFollowersOnly}
           />
-        </div> */}
+        </div>
       </LiveKitRoom>
     </>
   );
@@ -114,7 +115,9 @@ export const StreamPlayerSkeleton = () => {
         <VideoSkeleton />
         {/* <HeaderSkeleton /> */}
       </div>
-      <div className="col-span-1 bg-background">{/* <ChatSkeleton /> */}</div>
+      <div className="col-span-1 bg-background">
+        <ChatSkeleton />
+      </div>
     </div>
   );
 };
