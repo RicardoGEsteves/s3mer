@@ -33,7 +33,9 @@ const Toggle = () => {
       )}
       {!collapsed && (
         <div className="p-3 pl-6 mb-2 flex items-center w-full">
-          <p className="font-semibold text-foreground">Made for you</p>
+          <p className="font-semibold text-foreground uppercase">
+            Made for you
+          </p>
           <Hint
             label={label}
             side="right"

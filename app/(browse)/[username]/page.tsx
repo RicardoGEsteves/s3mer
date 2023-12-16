@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 import { getUserByUsername } from "@/lib/user-service";
 import { isFollowingUser } from "@/lib/follow-service";
 import { isBlockedByUser } from "@/lib/block-service";
-// import StreamPlayer from "@/components/stream-player";
-import Actions from "./_components/actions";
+import StreamPlayer from "@/components/stream-player";
 
 interface UserPageProps {
   params: {
@@ -27,23 +26,11 @@ const UserPage = async ({ params }: UserPageProps) => {
   }
 
   return (
-    // <StreamPlayer
-    //   user={user}
-    //   stream={user.stream}
-    //   isFollowing={isFollowing}
-    // />
-
-    // TODO: Remove this
-    <div className="flex flex-col gap-y4">
-      <p>Username: {user.username}</p>
-      <p>user ID: {user.id} </p>
-      <p>is following: {`${isFollowing}`} </p>
-      <p>is blocked: {`${isBlocked}`} </p>
-      <Actions
-        isFollowing={isFollowing}
-        userId={user.id}
-      />
-    </div>
+    <StreamPlayer
+      user={user}
+      stream={user.stream}
+      isFollowing={isFollowing}
+    />
   );
 };
 
