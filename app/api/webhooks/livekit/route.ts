@@ -28,6 +28,7 @@ export async function POST(req: Request) {
         isLive: true,
       },
     });
+    return new Response("Ingress started event handled", { status: 200 });
   }
 
   if (event.event === "ingress_ended") {
@@ -39,5 +40,8 @@ export async function POST(req: Request) {
         isLive: false,
       },
     });
+    return new Response("Ingress ended event handled", { status: 200 });
+  } else {
+    return new Response("Event type not handled", { status: 200 });
   }
 }

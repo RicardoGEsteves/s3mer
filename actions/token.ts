@@ -1,6 +1,7 @@
 "use server";
 
 import { v4 } from "uuid";
+import crypto from "crypto";
 import { AccessToken } from "livekit-server-sdk";
 
 import { getSelf } from "@/lib/auth-service";
@@ -14,9 +15,7 @@ export const createViewerToken = async (hostIdentity: string) => {
     self = await getSelf();
   } catch {
     const id = v4();
-    const username = `guest#${
-      window.crypto.getRandomValues(new Uint32Array(1))[0]
-    }`;
+    const username = `guest#${crypto.randomBytes(4).readUInt32BE(0)}`;
     self = { id, username };
   }
 

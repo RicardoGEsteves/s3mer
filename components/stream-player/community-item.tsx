@@ -39,9 +39,10 @@ const CommunityItem = ({
   };
 
   return (
+    //TODO: Check styles
     <div
       className={cn(
-        "group flex items-center justify-between w-full p-2 rounded-md text-sm hover:bg-white/5",
+        "group flex items-center justify-between w-full p-2 rounded-md text-sm hover:bg-foreground/5",
         isPending && "opacity-50 pointer-events-none"
       )}
     >

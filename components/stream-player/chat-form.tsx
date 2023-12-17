@@ -71,7 +71,7 @@ const ChatForm = ({
           disabled={isDisabled}
           placeholder="Send a message"
           className={cn(
-            "border-white/10",
+            "border ring-offset-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0",
             (isFollowersOnly || isDelayed) && "rounded-t-none border-t-0"
           )}
         />
