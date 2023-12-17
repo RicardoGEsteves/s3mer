@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 import { useChatSidebar } from "@/store/use-chat-sidebar";
 import { useViewerToken } from "@/hooks/use-viewer-token";
 
-// import { InfoCard } from "./info-card";
-// import { AboutCard } from "./about-card";
+import InfoCard from "./info-card";
+// import  AboutCard  from "./about-card";
 import ChatToggle from "./chat-toggle";
 import Chat, { ChatSkeleton } from "./chat";
 import Video, { VideoSkeleton } from "./video";
@@ -75,12 +75,12 @@ const StreamPlayer = ({ user, stream, isFollowing }: StreamPlayerProps) => {
             isFollowing={isFollowing}
             name={stream.name}
           />
-          {/* <InfoCard
+          <InfoCard
             hostIdentity={user.id}
             viewerIdentity={identity}
             name={stream.name}
             thumbnailUrl={stream.thumbnailUrl}
-          /> */}
+          />
           {/* <AboutCard
             hostName={user.username}
             hostIdentity={user.id}
