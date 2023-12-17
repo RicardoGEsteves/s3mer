@@ -39,7 +39,7 @@ const Header = ({
   const isHost = viewerIdentity === hostAsViewer;
 
   return (
-    <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-start justify-between px-4">
+    <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-start justify-between px-4 ">
       <div className="flex items-center gap-x-3">
         <UserAvatar
           imageUrl={imageUrl}

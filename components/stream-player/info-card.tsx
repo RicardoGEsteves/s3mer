@@ -27,7 +27,7 @@ const InfoCard = ({
 
   return (
     <div className="px-4">
-      <div className="rounded-xl bg-background">
+      <div className="rounded-xl bg-secondary/40">
         <div className="flex items-center gap-x-2.5 p-4">
           <div className="rounded-md bg-primary text-background p-2 h-auto w-auto">
             <Pencil className="h-5 w-5" />
