@@ -56,11 +56,10 @@ const ChatCommunity = ({
 
   return (
     <div className="p-4">
-      {/* TODO: Check border */}
       <Input
         onChange={(e) => onChange(e.target.value)}
         placeholder="Search community"
-        className="border"
+        className="border ring-offset-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
       />
       <ScrollArea className="gap-y-2 mt-4">
         <p className="text-center text-sm text-muted-foreground hidden last:block p-2">

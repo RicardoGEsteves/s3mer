@@ -25,7 +25,7 @@ const KeyCard = ({ value }: KeyCardProps) => {
               type={show ? "text" : "password"}
               disabled
               placeholder="Stream key"
-              className="bg-secondary/40"
+              className="bg-secondary/40 ring-offset-background focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
             />
             <CopyButton value={value || ""} />
           </div>
