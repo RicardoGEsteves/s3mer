@@ -44,7 +44,8 @@ This repository hosts a cutting-edge livestream platform built upon a robust tec
 >
 > - Live Chat
 >   - Chat & Community Tab
->     <img src="/public\demo-images\liveChat.png"/> <img src="/public\demo-images\communityTab.png"/>
+>     <br/>
+>     <img src="/public\demo-images\liveChat.png"/><img src="/public\demo-images\communityTab.png"/>
 >
 > ##
 >
