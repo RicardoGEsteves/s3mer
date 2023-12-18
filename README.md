@@ -8,6 +8,8 @@ S3MER is an innovative and customizable live streaming platform designed to revo
 
 This repository hosts a cutting-edge livestream platform built upon a robust tech stack utilizing TypeScript, React, Next.js, and TailwindCSS to provide a dynamic and responsive user interface. Leveraging the power of Shadcn-ui and Clerk, LiveStreamX delivers a visually immersive experience with personalized themes and advanced user authentication capabilities.
 
+##
+
 ### Demo Images
 
 ##
@@ -83,8 +85,6 @@ Contributions to S#MER are welcome! Whether you're passionate about enhancing us
 
 ```
 
-##
-
 ## Tech Stack
 
 `Typescript, React, Next.js, TailwindCSS, Shadcn-ui, Prisma, MySQL, Socket.io, WebRTC, WebSockets, Clerk, Clerk/themes, Livekit/components-react, Livekit-client, Livekit-server-sdk, Tanstack/react-table, Uploadthing, JWT-decode, Sonner, Svix, Ngrok, Zustand, Webhooks, RTMP and WHIP connections, Server actions and more. `
@@ -159,7 +159,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-```
-
-```
