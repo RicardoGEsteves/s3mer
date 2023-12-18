@@ -13,35 +13,45 @@ This repository hosts a cutting-edge livestream platform built upon a robust tec
 ### Demo Images
 
 > - Home Page
->   <img src="/public/demo-images/home.png"/>
->   <img src="/public/demo-images/homeLive.png"/>
->   <img src="/public/demo-images/homeLiveLogedIn.png"/>
+>   - logged in
+>     <img src="/public/demo-images/home.png"/>
+>   - live
+>     <img src="/public/demo-images/homeLive.png"/>
+>   - live logged in
+>     <img src="/public/demo-images/homeLiveLogedIn.png"/>
 >
 > ##
 >
 > - Dashboard
->   <img src="/public/demo-images/dashboardOffline.png"/>
->   <img src="/public/demo-images/dashboardLive.png"/>
->   <img src="/public/demo-images/dashboardAbout.png"/>
->   <img src="/public/demo-images/dashboardLiveChat.png"/>
+>   - dashboard offline
+>     <img src="/public/demo-images/dashboardOffline.png"/>
+>   - dashboard live
+>     <img src="/public/demo-images/dashboardLive.png"/>
+>   - dashboard about section
+>     <img src="/public/demo-images/dashboardAbout.png"/>
+>   - dashboard live chat
+>     <img src="/public/demo-images/dashboardLiveChat.png"/>
 >
 > ##
 >
 > - Search Results
->   <img src="/public\demo-images\searchResults.png"/>
->   <img src="/public\demo-images\searchResultsLive.png"/>
+>   - offline
+>     <img src="/public\demo-images\searchResults.png"/>
+>   - live
+>     <img src="/public\demo-images\searchResultsLive.png"/>
 >
 > ##
 >
 > - Live Chat
 >   - Chat
->     <img src="/public\demo-images\liveChat.png"/>
+>     <img src="/public\demo-images\liveChat.png"/> ><br/>
 >   - Community Tab
 >     <img src="/public\demo-images\communityTab.png"/>
 >
 > ##
 >
 > - Live Badge
+>   <br/>
 >   <img src="/public\demo-images\liveBadge.png"/>
 
 ##
