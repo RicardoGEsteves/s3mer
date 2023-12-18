@@ -12,6 +12,9 @@ This repository hosts a cutting-edge livestream platform built upon a robust tec
 
 ### Demo Images
 
+![Home Page](https://github.com/RicardoGEsteves/s3mer/tree/main/public/demo-images/home.png)
+<img src="/public/demo-images/home.png"/>
+
 ##
 
 ### Technologies & Key Features
@@ -52,37 +55,94 @@ Contributions to S#MER are welcome! Whether you're passionate about enhancing us
 #### Project Structure
 
 ```bash
-.
-├── .github/
-│   ├── workflows/ (CI/CD)
-├── actions/ (server actions)
-├── app/
-│   ├── api/ (server)
-│   │   ├── webhooks/
-│   ├── components/
+├── .github/               # GitHub configuration
+│   ├── workflows/         # GitHub Actions workflows for CI/CD
+├── actions/               # Server actions
+│   ├── auth.ts            # Authentication actions
+│   ├── db.ts              # Database actions
+│   ├── streams.ts         # Stream management actions
+│   ├── users.ts           # User management actions
+│   └── utils.ts           # Utility functions
+├── api/                    # Backend API
+│   ├── routes/             # API routes
+│   │   ├── auth.js
+│   │   ├── streams.js
+│   │   └── users.js
+│   ├── models/             # Database models
+│   │   ├── User.js
+│   │   └── Stream.js
+│   ├── middlewares/        # Express middlewares
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   ├── utils/              # Utility functions
+│   │   └── db.js
+│   ├── server.js           # Express server
+│   └── index.js            # Entry point
+├── app/                   # Next.js app
+│   ├── pages/             # Next.js pages
+│   │   ├── _app.tsx       # Global app component
+│   │   ├── _document.tsx  # Custom document
+│   │   ├── index.tsx      # Home page
+│   │   └── ....           # Other pages
+│   ├── components/        # React components
 │   │   ├── Auth/
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   └── ....
 │   │   ├── Home/
+│   │   │   ├── HomeHero.tsx
+│   │   │   ├── FeaturedStreams.tsx
+│   │   │   └── ....
 │   │   ├── Layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── ....
 │   │   ├── Live/
+│   │   │   ├── LivePlayer.tsx
+│   │   │   ├── LiveChat.tsx
+│   │   │   └── ....
 │   │   ├── Profile/
+│   │   │   ├── ProfileHeader.tsx
+│   │   │   ├── ProfileContent.tsx
+│   │   │   └── ....
 │   │   ├── Settings/
-│   │   ├── Video/
-├── components/ (shared components)
-├── hooks/ (shared hooks)
-├── lib/
-│   └─ Services/
-├── prisma/ (database)
-├── public/ (static assets)
-├── store/ (state management)
-├── .eslintrc.json
-├── .gitignore
-├── next.config.js
+│   │   │   ├── AccountSettings.tsx
+│   │   │   ├── AppearanceSettings.tsx
+│   │   │   └── ....
+│   │   └── Video/
+│   │       ├── VideoPlayer.tsx
+│   │       ├── VideoInfo.tsx
+│   │       └── ....
+├── hooks/                 # Custom hooks
+│   ├── useAuth.ts
+│   ├── useStream.ts
+│   └── ....
+├── lib/                   # Shared lib
+│   └── services           # API clients
+│       ├── auth.ts
+│       ├── streams.ts
+│       └── users.ts
+├── prisma/                # Prisma schema & migrations
+│   ├── schema.prisma
+│   └── migrations/
+├── public/                # Static assets
+│   ├── fonts/
+│   ├── images/
+│   └── styles/
+├── store/                 # State management
+│   ├── index.ts
+│   └── slices/
+│       ├── authSlice.ts
+│       ├── streamsSlice.ts
+│       └── usersSlice.ts
+├── utils/                 # Utility functions
+│   ├── formatTime.ts
+│   └── ...
+├── next.config.js          # Next.js configuration
 ├── package.json
-├── postcss.config.js
 ├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
-
+├── tsconfig.json
+└── ....
 ```
 
 ## Tech Stack
