@@ -12,8 +12,37 @@ This repository hosts a cutting-edge livestream platform built upon a robust tec
 
 ### Demo Images
 
-![Home Page](https://github.com/RicardoGEsteves/s3mer/tree/main/public/demo-images/home.png)
-<img src="/public/demo-images/home.png"/>
+> - Home Page
+>   <img src="/public/demo-images/home.png"/>
+>   <img src="/public/demo-images/homeLive.png"/>
+>   <img src="/public/demo-images/homeLiveLogedIn.png"/>
+>
+> ##
+>
+> - Dashboard
+>   <img src="/public/demo-images/dashboardOffline.png"/>
+>   <img src="/public/demo-images/dashboardLive.png"/>
+>   <img src="/public/demo-images/dashboardAbout.png"/>
+>   <img src="/public/demo-images/dashboardLiveChat.png"/>
+>
+> ##
+>
+> - Search Results
+>   <img src="/public\demo-images\searchResults.png"/>
+>   <img src="/public\demo-images\searchResultsLive.png"/>
+>
+> ##
+>
+> - Live Chat
+>   - Chat
+>     <img src="/public\demo-images\liveChat.png"/>
+>   - Community Tab
+>     <img src="/public\demo-images\communityTab.png"/>
+>
+> ##
+>
+> - Live Badge
+>   <img src="/public\demo-images\liveBadge.png"/>
 
 ##
 
