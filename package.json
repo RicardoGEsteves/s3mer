@@ -28,7 +28,7 @@
     "@uploadthing/react": "^6.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "date-fns": "^2.30.0",
+    "date-fns": "^3.0.6",
     "jwt-decode": "^4.0.0",
     "livekit-client": "^1.15.4",
     "livekit-server-sdk": "^1.2.7",
