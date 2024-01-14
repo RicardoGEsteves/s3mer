@@ -56,8 +56,7 @@ const Actions = ({ hostIdentity, isFollowing, isHost }: ActionsProps) => {
     }
   };
 
-  return (
-    //TODO: {!isHost ? ( the button ) : null}
+  return !isHost ? (
     <Button
       disabled={isPending || isHost}
       onClick={toggleFollow}
@@ -73,7 +72,7 @@ const Actions = ({ hostIdentity, isFollowing, isHost }: ActionsProps) => {
       />
       {isFollowing ? "Unfollow" : "Follow"}
     </Button>
-  );
+  ) : null;
 };
 
 export default Actions;
