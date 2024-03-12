@@ -1,5 +1,7 @@
 # S3MER - Advanced Customizable Live Streaming Platform
 
+> **(UPDATE)** - with the latest dependencies updates, you will have to do some small config changes.
+
 S3MER is an innovative and customizable live streaming platform designed to revolutionize the streaming experience. It offers a feature-rich environment akin to popular platforms, while integrating cutting-edge technologies for enhanced security, customization, and seamless user interaction.
 
 ## Project Description:
@@ -44,14 +46,12 @@ This repository hosts a cutting-edge livestream platform built upon a robust tec
 >
 > - Live Chat
 >   - Chat & Community Tab
->     <br/>
->     <img src="/public\demo-images\liveChat.png"/><img src="/public\demo-images\communityTab.png"/>
+>     <br/> > <img src="/public\demo-images\liveChat.png"/><img src="/public\demo-images\communityTab.png"/>
 >
 > ##
 >
 > - Live Badge
->   <br/>
->   <img src="/public\demo-images\liveBadge.png"/>
+>   <br/> > <img src="/public\demo-images\liveBadge.png"/>
 
 ##
 
