@@ -29,7 +29,7 @@
     "@uploadthing/react": "^6.2.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "date-fns": "^3.3.1",
+    "date-fns": "^3.5.0",
     "jwt-decode": "^4.0.0",
     "livekit-client": "^2.0.3",
     "livekit-server-sdk": "^2.0.4",
