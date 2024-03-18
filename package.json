@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@types/node": "20.11.28",
-    "@types/react": "18.2.64",
+    "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
     "@types/uuid": "9.0.8",
     "autoprefixer": "10.4.18",
