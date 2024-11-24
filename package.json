@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.1.3",
-    "@clerk/themes": "^2.1.40",
-    "@livekit/components-react": "^2.4.3",
+    "@clerk/nextjs": "^6.5.0",
+    "@clerk/themes": "^2.1.48",
+    "@livekit/components-react": "^2.6.9",
     "@livekit/components-styles": "^1.0.9",
     "@prisma/client": "^5.19.0",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -31,7 +31,7 @@
     "clsx": "^2.1.0",
     "date-fns": "^4.1.0",
     "jwt-decode": "^4.0.0",
-    "livekit-client": "^2.6.0",
+    "livekit-client": "^2.6.3",
     "livekit-server-sdk": "^2.7.3",
     "lucide-react": "^0.460.0",
     "next": "^15.0.2",
@@ -41,7 +41,7 @@
     "react-dom": "^18",
     "sonner": "^1.6.1",
     "string-to-color": "^2.2.2",
-    "svix": "^1.31.0",
+    "svix": "^1.41.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "uploadthing": "^6.4.1",
@@ -50,7 +50,7 @@
     "zustand": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "22.9.0",
+    "@types/node": "22.9.3",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "@types/uuid": "10.0.0",
@@ -60,6 +60,6 @@
     "postcss": "8.4.49",
     "prisma": "5.22.0",
     "tailwindcss": "3.4.15",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   }
 }
