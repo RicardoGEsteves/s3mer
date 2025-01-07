@@ -44,7 +44,7 @@
     "svix": "^1.45.1",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "uploadthing": "^6.4.1",
+    "uploadthing": "^7.4.4",
     "usehooks-ts": "^3.0.1",
     "uuid": "^11.0.4",
     "zustand": "^5.0.1"
